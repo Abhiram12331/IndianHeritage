@@ -15,7 +15,7 @@ function MainSection() {
   </div>
   <div className="video">
     <video id="video" autoPlay loop muted>
-      <source type="video/mp4" src="C:\Users\ABHIRAM\Documents\ffff\public\images\v1.mp4" />
+      <source type="video/mp4" src="\images\v1.mp4" />
     </video>
   </div>
 </header>
