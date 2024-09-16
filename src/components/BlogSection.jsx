@@ -4,9 +4,9 @@ import "./blog.css";
 function BlogSection() {
   return (
     
-    <div className="container">
+    <div id="BlogSection" className="container p-5">
       <div className="row">
-      <div className="col-12 "><h3>Blogs and Articles</h3></div>
+      <div className="col-12  "><h3 className="h33">Blogs and Articles</h3></div>
       <div id="blog-par" className="col-6">
             <div className="blog-content">
                 <div className="blog-img">

@@ -11,9 +11,9 @@ function Header() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav nav-links">
-          <a className="nav-link" href="#">Home</a>
-          <a className="nav-link" href="#">Blog</a>
-          <a className="nav-link" href="#">Contact us</a>
+          <a className="nav-link" href="#MainSection">Home</a>
+          <a className="nav-link" href="#BlogSection">Blog</a>
+          <a className="nav-link" href="#Footer">Contact us</a>
         </div>
       </div>
     </div>

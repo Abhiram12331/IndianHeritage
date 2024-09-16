@@ -4,7 +4,7 @@ import "./MainSection.css";
 
 function MainSection() {
   return (
-    <main>
+    <main id="MainSection"> 
       <header>
   <div className="container">
     <div className="home_header_info">
@@ -15,7 +15,7 @@ function MainSection() {
   </div>
   <div className="video">
     <video id="video" autoPlay loop muted>
-      <source type="video/webm" src="./images/videoplayback.webm" />
+      <source type="video/mp4" src="C:\Users\ABHIRAM\Documents\ffff\public\images\v1.mp4" />
     </video>
   </div>
 </header>
