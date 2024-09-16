@@ -1,0 +1,43 @@
+/* Header.css */
+
+nav {
+  background-color: rgb(89, 169, 211); /* Dark background for the header */
+  padding: 1rem 0; /* Spacing around the header */
+  position: fixed; /* Fix header at the top */
+  width: 100%; /* Full width */
+  top: 0;
+  z-index: 1000; /* Ensure the header is on top */
+  box-shadow: 0 4px 6px rgba(242, 239, 239, 0.1); /* Subtle shadow effect */
+}
+.colo{
+  color:#ff6600 !important;
+}
+
+.logo {
+  font-size: 1.8rem; /* Larger font size for the logo */
+  color: orange; /* White logo color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold logo */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none; /* Remove list bullets */
+  gap: 2rem; /* Space between nav items */
+  
+}
+
+.nav-links li {
+  position: relative; /* Positioning for hover effect */
+}
+
+.nav-links a {
+  color: hwb(165 96% 2%); /* White link color */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.1rem; /* Font size for the links */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-links a:hover {
+  color: #ff6600; /* Hover color for links */
+}
